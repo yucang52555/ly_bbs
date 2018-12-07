@@ -1,0 +1,1 @@
+java -jar ly_bbs.jar --spring.profiles.active=prod > log.file 2>&1 &
