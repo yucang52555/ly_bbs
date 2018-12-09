@@ -2,9 +2,9 @@ FROM maven:3
 LABEL maintainer="qiaofu"
 
 WORKDIR /app/ly/server/lyblog
-ADD . /tmp
+ADD . /app/ly/server/tmp
 
-RUN cd /tmp && mvn package -Pci && mv target/dist/lyblog/* /app/ly/server/lyblog/ && rm -rf /tmp/* && rm -rf ~/.m2
+RUN cd /app/ly/server/tmp && mvn package && mv target/dist/lyblog/* /app/ly/server/lyblog/ && rm -rf /app/ly/server/tmp/*
 
 EXPOSE 8080
 
