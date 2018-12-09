@@ -1,78 +1,322 @@
-12:18:55.882 YIIU [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - Starting LybbsApplication on LAPTOP-5CV0S9OB with PID 23508 (F:\kingkang\workspace\ly_website\ly_bbs\target\classes started by lengyan in F:\kingkang\workspace\ly_website\ly_bbs)
-12:18:55.885 YIIU [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - No active profile set, falling back to default profiles: default
-12:18:55.926 YIIU [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-12:18:55.926 YIIU [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-12:18:57.130 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.136 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [com.lengyan.lybbs.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$69025cd5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.148 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.153 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$14a3a78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.155 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.162 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.182 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.234 YIIU [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-12:18:57.768 YIIU [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-12:18:57.778 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.783 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.894 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.897 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [com.sun.proxy.$Proxy64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.899 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserService' of type [com.lengyan.lybbs.service.AdminUserService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.934 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.936 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [com.sun.proxy.$Proxy67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.940 YIIU [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.RolePermission.
-12:18:57.957 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.958 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [com.sun.proxy.$Proxy68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.959 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionService' of type [com.lengyan.lybbs.service.RolePermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.959 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleService' of type [com.lengyan.lybbs.service.RoleService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.988 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.990 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.991 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionService' of type [com.lengyan.lybbs.service.PermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.991 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.lengyan.lybbs.config.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:57.992 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.lengyan.lybbs.config.ShiroConfig$$EnhancerBySpringCGLIB$$24eb8079] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:58.474 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myCredentialsMatcher' of type [com.lengyan.lybbs.config.realm.MyCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:58.477 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:58.477 YIIU [restartedMain] INFO  com.lengyan.lybbs.config.ShiroConfig - 开始配置shiroFilter...
-12:18:58.512 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c381cdde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:58.522 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:18:58.947 YIIU [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-12:18:58.958 YIIU [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-12:18:58.962 YIIU [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-12:18:58.962 YIIU [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
-12:18:58.968 YIIU [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\program\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\program\Java\jdk1.8.0_152\bin;E:\program\Java\jdk1.8.0_152\jre\bin;"E:\program\git\Git\bin;";E:\program\git\Git\cmd;C:\strawberry\c\bin;C:\strawberry\perl\bin;E:\program\svn\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\program\git\Git2.19\Git\cmd;C:\Users\lengyan\AppData\Local\Microsoft\WindowsApps;;C:\Users\lengyan\AppData\Local\Programs\Fiddler;C:\Users\lengyan\AppData\Local\Microsoft\WindowsApps;E:\Program Files (x86)\OpenVPN\bin;.]
-12:18:59.093 YIIU [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-12:18:59.093 YIIU [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3166 ms
-12:18:59.130 YIIU [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
-12:18:59.134 YIIU [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
-12:18:59.134 YIIU [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*]
-12:18:59.261 YIIU [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.SystemConfig.
-12:18:59.354 YIIU [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.TopicTag.
-12:18:59.416 YIIU [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.Collect.
-12:18:59.560 YIIU [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker全局变量...
-12:18:59.922 YIIU [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker全局变量配置完成!
-12:18:59.922 YIIU [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker自定义标签...
-12:18:59.922 YIIU [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker自定义标签配置完成!
-12:19:00.672 YIIU [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-12:19:00.712 YIIU [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-12:19:00.722 YIIU [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
-12:19:00.736 YIIU [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-12:19:00.739 YIIU [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - Started LybbsApplication in 5.191 seconds (JVM running for 6.724)
-12:19:23.495 YIIU [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-12:19:23.495 YIIU [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-12:19:23.512 YIIU [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
-12:19:24.805 YIIU [http-nio-8080-exec-1] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/|excitation=1256ms
-12:19:24.888 YIIU [http-nio-8080-exec-2] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/css/app.css|excitation=45ms
-12:19:30.641 YIIU [http-nio-8080-exec-4] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/login|excitation=15ms
-12:19:30.681 YIIU [http-nio-8080-exec-3] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/css/app.css|excitation=21ms
-12:19:42.051 YIIU [http-nio-8080-exec-10] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/login|username=admin|password=hongfeng123456|excitation=438ms
-12:19:43.277 YIIU [http-nio-8080-exec-1] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/|excitation=505ms
-12:19:43.298 YIIU [http-nio-8080-exec-4] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/css/app.css|excitation=1ms
-12:19:43.318 YIIU [http-nio-8080-exec-2] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/upload/avatar/admin/avatar.png|excitation=19ms
-12:19:43.341 YIIU [http-nio-8080-exec-2] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/error|excitation=13ms
-12:19:43.578 YIIU [http-nio-8080-exec-3] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/notification/notRead|_=1544156383310|excitation=206ms
-12:19:52.709 YIIU [http-nio-8080-exec-7] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/adminlogin|excitation=9ms
-12:19:53.723 YIIU [http-nio-8080-exec-8] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/common/code|excitation=992ms
-12:19:53.744 YIIU [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
-12:19:53.749 YIIU [http-nio-8080-exec-9] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/error|excitation=1ms
-12:20:09.190 YIIU [http-nio-8080-exec-6] INFO  c.l.lybbs.config.realm.MyShiroRealm - 用户：admin 正在登录...
-12:20:09.378 YIIU [http-nio-8080-exec-6] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/adminlogin|username=admin|password=hongfeng123456|code=3AHA|excitation=10825ms
-12:20:11.512 YIIU [http-nio-8080-exec-3] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/admin/index|excitation=2129ms
-12:20:11.539 YIIU [http-nio-8080-exec-5] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/js/app.min.js|excitation=1ms
+16:29:47.907 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - Starting LybbsApplication on LAPTOP-5CV0S9OB with PID 24948 (F:\kingkang\workspace\ly_website\ly_bbs\target\classes started by lengyan in F:\kingkang\workspace\ly_website\ly_bbs)
+16:29:47.910 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - No active profile set, falling back to default profiles: default
+16:29:47.946 lengyan [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:29:47.946 lengyan [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:29:49.090 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.094 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [com.lengyan.lybbs.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$3c109f36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.106 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.110 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$d4587cd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.112 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.119 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.139 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.190 lengyan [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:29:49.728 lengyan [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:29:49.738 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.742 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.854 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.856 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [com.sun.proxy.$Proxy64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.858 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserService' of type [com.lengyan.lybbs.service.AdminUserService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.879 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.880 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [com.sun.proxy.$Proxy67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.884 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.RolePermission.
+16:29:49.900 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.901 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [com.sun.proxy.$Proxy68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.901 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionService' of type [com.lengyan.lybbs.service.RolePermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.902 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleService' of type [com.lengyan.lybbs.service.RoleService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.922 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.923 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.924 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionService' of type [com.lengyan.lybbs.service.PermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.924 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.lengyan.lybbs.config.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:49.924 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.lengyan.lybbs.config.ShiroConfig$$EnhancerBySpringCGLIB$$f7f9c2da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:50.353 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myCredentialsMatcher' of type [com.lengyan.lybbs.config.realm.MyCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:50.356 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:50.356 lengyan [restartedMain] INFO  com.lengyan.lybbs.config.ShiroConfig - 开始配置shiroFilter...
+16:29:50.387 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9690103f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:50.396 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:29:50.854 lengyan [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:29:50.865 lengyan [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:29:50.870 lengyan [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:29:50.870 lengyan [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+16:29:50.877 lengyan [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\program\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\program\Java\jdk1.8.0_152\bin;E:\program\Java\jdk1.8.0_152\jre\bin;"E:\program\git\Git\bin;";E:\program\git\Git\cmd;C:\strawberry\c\bin;C:\strawberry\perl\bin;E:\program\svn\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\program\git\Git2.19\Git\cmd;C:\Users\lengyan\AppData\Local\Microsoft\WindowsApps;;C:\Users\lengyan\AppData\Local\Programs\Fiddler;C:\Users\lengyan\AppData\Local\Microsoft\WindowsApps;E:\Program Files (x86)\OpenVPN\bin;.]
+16:29:51.009 lengyan [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:29:51.010 lengyan [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3062 ms
+16:29:51.047 lengyan [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:29:51.051 lengyan [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:29:51.051 lengyan [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*]
+16:29:51.181 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.SystemConfig.
+16:29:51.277 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.TopicTag.
+16:29:51.348 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.Collect.
+16:29:51.517 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker全局变量...
+16:29:51.869 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker全局变量配置完成!
+16:29:51.869 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker自定义标签...
+16:29:51.869 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker自定义标签配置完成!
+16:29:52.554 lengyan [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:29:52.596 lengyan [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:29:52.606 lengyan [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:29:52.620 lengyan [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:29:52.623 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - Started LybbsApplication in 5.073 seconds (JVM running for 6.39)
+16:30:27.238 lengyan [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:30:27.238 lengyan [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:30:27.248 lengyan [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+16:30:27.293 lengyan [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for POST /api/uploadAvatar
+16:30:27.880 lengyan [http-nio-8080-exec-2] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/error|excitation=574ms
+16:32:20.779 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - Starting LybbsApplication on LAPTOP-5CV0S9OB with PID 16976 (F:\kingkang\workspace\ly_website\ly_bbs\target\classes started by lengyan in F:\kingkang\workspace\ly_website\ly_bbs)
+16:32:20.781 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - No active profile set, falling back to default profiles: default
+16:32:20.814 lengyan [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:32:20.814 lengyan [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:32:21.890 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:21.894 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [com.lengyan.lybbs.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$42c5c5a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:21.905 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:21.909 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$db0da348] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:21.911 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:21.917 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:21.936 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:21.984 lengyan [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:32:22.528 lengyan [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:32:22.538 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.543 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.655 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.656 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [com.sun.proxy.$Proxy64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.658 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserService' of type [com.lengyan.lybbs.service.AdminUserService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.680 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.681 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [com.sun.proxy.$Proxy67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.685 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.RolePermission.
+16:32:22.702 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.703 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [com.sun.proxy.$Proxy68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.703 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionService' of type [com.lengyan.lybbs.service.RolePermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.703 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleService' of type [com.lengyan.lybbs.service.RoleService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.724 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.725 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.726 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionService' of type [com.lengyan.lybbs.service.PermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.726 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.lengyan.lybbs.config.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:22.726 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.lengyan.lybbs.config.ShiroConfig$$EnhancerBySpringCGLIB$$feaee949] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:23.225 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myCredentialsMatcher' of type [com.lengyan.lybbs.config.realm.MyCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:23.228 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:23.229 lengyan [restartedMain] INFO  com.lengyan.lybbs.config.ShiroConfig - 开始配置shiroFilter...
+16:32:23.262 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d4536ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:23.271 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:32:23.650 lengyan [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:32:23.661 lengyan [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:32:23.666 lengyan [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:32:23.666 lengyan [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+16:32:23.672 lengyan [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\program\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\program\Java\jdk1.8.0_152\bin;E:\program\Java\jdk1.8.0_152\jre\bin;"E:\program\git\Git\bin;";E:\program\git\Git\cmd;C:\strawberry\c\bin;C:\strawberry\perl\bin;E:\program\svn\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\program\git\Git2.19\Git\cmd;C:\Users\lengyan\AppData\Local\Microsoft\WindowsApps;;C:\Users\lengyan\AppData\Local\Programs\Fiddler;C:\Users\lengyan\AppData\Local\Microsoft\WindowsApps;E:\Program Files (x86)\OpenVPN\bin;.]
+16:32:23.810 lengyan [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:32:23.811 lengyan [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2997 ms
+16:32:23.849 lengyan [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:32:23.854 lengyan [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:32:23.854 lengyan [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*]
+16:32:23.975 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.SystemConfig.
+16:32:24.078 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.TopicTag.
+16:32:24.145 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.Collect.
+16:32:24.290 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker全局变量...
+16:32:24.649 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker全局变量配置完成!
+16:32:24.649 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker自定义标签...
+16:32:24.649 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker自定义标签配置完成!
+16:32:25.324 lengyan [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:32:25.362 lengyan [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:32:25.371 lengyan [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:32:25.384 lengyan [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:32:25.387 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - Started LybbsApplication in 4.987 seconds (JVM running for 6.399)
+16:32:34.441 lengyan [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:32:34.441 lengyan [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:32:34.455 lengyan [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+16:32:35.376 lengyan [http-nio-8080-exec-1] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/settings|excitation=897ms
+16:32:35.414 lengyan [http-nio-8080-exec-3] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/upload/avatar/admin/avatar.png|excitation=13ms
+16:32:35.420 lengyan [http-nio-8080-exec-2] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/css/app.css|excitation=19ms
+16:32:35.480 lengyan [http-nio-8080-exec-3] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/error|excitation=52ms
+16:32:35.699 lengyan [http-nio-8080-exec-4] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/upload/avatar/admin/avatar.png|excitation=1ms
+16:32:35.701 lengyan [http-nio-8080-exec-4] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/error|excitation=1ms
+16:32:36.007 lengyan [http-nio-8080-exec-5] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/notification/notRead|_=1544171555682|excitation=269ms
+16:32:59.707 lengyan [http-nio-8080-exec-6] ERROR com.lengyan.lybbs.util.FileUtil - http:\static.ruzishici.top\images\bbs\upload\avatar\admin\avatar.jpeg (文件名、目录名或卷标语法不正确。)
+16:39:12.728 lengyan [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m16s949ms797µs78ns).
+16:39:12.730 lengyan [http-nio-8080-exec-6] INFO  c.l.l.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/settings/uploadAvatar|excitation=388658ms
+16:44:16.528 lengyan [Thread-17] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:44:16.535 lengyan [Thread-17] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:44:27.519 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - Starting LybbsApplication on LAPTOP-5CV0S9OB with PID 16976 (F:\kingkang\workspace\ly_website\ly_bbs\target\classes started by lengyan in F:\kingkang\workspace\ly_website\ly_bbs)
+16:44:27.519 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - No active profile set, falling back to default profiles: default
+16:44:27.767 lengyan [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lengyan.lybbs]' package. Please check your configuration.
+16:44:27.982 lengyan [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:44:27.983 lengyan [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:44:27.983 lengyan [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+16:44:28.024 lengyan [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:44:28.024 lengyan [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 501 ms
+16:44:28.036 lengyan [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:44:28.037 lengyan [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:44:28.037 lengyan [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:44:28.037 lengyan [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+16:44:28.037 lengyan [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:44:28.105 lengyan [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+16:44:28.166 lengyan [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+16:44:30.812 lengyan [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+16:44:30.901 lengyan [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:44:30.927 lengyan [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:44:30.928 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - Started LybbsApplication in 3.445 seconds (JVM running for 731.94)
+16:44:30.935 lengyan [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   MybatisPlusAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found ConfigurableWebEnvironment (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter matched:
+      - @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.HiddenHttpMethodFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver; types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration matched:
+      - @ConditionalOnProperty (spring.mvc.favicon.enabled) matched (OnPropertyCondition)
+
+
+Negative matches:
+-----------------
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#localeResolver:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.locale) did not find property 'locale' (OnPropertyCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+16:44:32.827 lengyan [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+16:44:36.996 lengyan [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+16:44:36.997 lengyan [Thread-25] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+16:44:37.505 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - Starting LybbsApplication on LAPTOP-5CV0S9OB with PID 16976 (F:\kingkang\workspace\ly_website\ly_bbs\target\classes started by lengyan in F:\kingkang\workspace\ly_website\ly_bbs)
+16:44:37.505 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - No active profile set, falling back to default profiles: default
+16:44:37.898 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:37.900 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [com.lengyan.lybbs.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$42c5c5a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:37.902 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:37.904 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$db0da348] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:37.905 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:37.910 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:37.915 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:37.918 lengyan [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+16:44:41.597 lengyan [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+16:44:41.598 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.601 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.627 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.628 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [com.sun.proxy.$Proxy117] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.628 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserService' of type [com.lengyan.lybbs.service.AdminUserService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.643 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.644 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [com.sun.proxy.$Proxy118] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.648 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.RolePermission.
+16:44:41.658 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.659 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [com.sun.proxy.$Proxy119] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.659 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionService' of type [com.lengyan.lybbs.service.RolePermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.660 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleService' of type [com.lengyan.lybbs.service.RoleService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.672 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.674 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [com.sun.proxy.$Proxy120] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.674 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionService' of type [com.lengyan.lybbs.service.PermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.675 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.lengyan.lybbs.config.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.675 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.lengyan.lybbs.config.ShiroConfig$$EnhancerBySpringCGLIB$$feaee949] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.678 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myCredentialsMatcher' of type [com.lengyan.lybbs.config.realm.MyCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.678 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.678 lengyan [restartedMain] INFO  com.lengyan.lybbs.config.ShiroConfig - 开始配置shiroFilter...
+16:44:41.686 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d4536ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.688 lengyan [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:44:41.893 lengyan [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:44:41.894 lengyan [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:44:41.894 lengyan [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+16:44:41.932 lengyan [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:44:41.933 lengyan [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4426 ms
+16:44:41.944 lengyan [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:44:41.944 lengyan [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:44:41.944 lengyan [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*]
+16:44:41.976 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.SystemConfig.
+16:44:42.027 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.TopicTag.
+16:44:42.085 lengyan [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.lengyan.lybbs.model.Collect.
+16:44:42.219 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker全局变量...
+16:44:42.470 lengyan [restartedMain] INFO  freemarker.beans - Detected multiple classes with the same name, "com.lengyan.lybbs.util.BaseModel". Assuming it was a class-reloading. Clearing class introspection caches to release old data.
+16:44:42.474 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker全局变量配置完成!
+16:44:42.474 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker自定义标签...
+16:44:42.474 lengyan [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker自定义标签配置完成!
+16:44:42.865 lengyan [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:44:42.892 lengyan [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:44:42.892 lengyan [restartedMain] INFO  com.lengyan.lybbs.LybbsApplication - Started LybbsApplication in 5.414 seconds (JVM running for 743.904)
+16:44:42.894 lengyan [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ShiroConfig#defaultAdvisorAutoProxyCreator matched:
+      - @ConditionalOnMissingBean (types: org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   MybatisPlusAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean; SearchStrategy: all) found beans of type 'org.mybatis.spring.mapper.MapperFactoryBean' &userMapper, &commentMapper, &permissionMapper, &systemConfigMapper, &adminUserMapper, &topicMapper, &topicTagMapper, &notificationMapper, &rolePermissionMapper, &collectMapper, &tagMapper, &roleMapper, &codeMapper (OnBeanCondition)
+
+   WebMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport' webMvcConfig (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+         - found ConfigurableWebEnvironment (OnWebApplicationCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnProperty (spring.mvc.favicon.enabled) matched (OnPropertyCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+

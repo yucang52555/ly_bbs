@@ -323,7 +323,7 @@ VALUES
 	('mail.host','smtp.qq.com','邮箱的smtp服务器地址'),
 	('mail.password','','发送邮件的邮箱密码'),
 	('mail.username','xxoo@qq.com','发送邮件的邮箱地址'),
-	('name','朋也社区','站点名称'),
+	('name','孺子社区','站点名称'),
 	('pageSize','20','分页每页条数'),
 	('socketNotification','0','是否开启websocket长连接获取通知数量，1：开启，0：关闭，默认 0'),
 	('staticUrl','http://localhost:8080/static/upload/','静态文件访问地址，主要用于上传图片的访问，注意最后有个\"/\"'),
