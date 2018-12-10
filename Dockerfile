@@ -4,7 +4,7 @@ LABEL maintainer="qiaofu"
 WORKDIR /app/ly/server/lyblog
 ADD . /app/ly/server/tmp
 
-RUN cd /app/ly/server/tmp && mvn clean && mvn package && mv target/* /app/ly/server/lyblog/ && rm -rf /app/ly/server/tmp/*
+RUN cd /app/ly/server/tmp && mvn clean package -Dmaven.test.skip=true && mv target/* /app/ly/server/lyblog/ && rm -rf /app/ly/server/tmp/*
 
 EXPOSE 8080
 
