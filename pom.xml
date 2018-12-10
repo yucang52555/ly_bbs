@@ -131,6 +131,7 @@
   </dependencies>
 
   <profiles>
+    <!-- 开发环境 -->
     <profile>
       <id>dev</id>
       <build>
@@ -140,6 +141,24 @@
             <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
               <fork>true</fork>
+            </configuration>
+          </plugin>
+          <!-- 打包成jar文件，并指定lib文件夹以及resources资源文件夹 -->
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.1.0</version>
+            <configuration>
+              <archive>
+                <manifest>
+                  <mainClass>com.lengyan.lybbs.LybbsApplication</mainClass>
+                  <classpathPrefix>lib/</classpathPrefix>
+                  <addClasspath>true</addClasspath>
+                </manifest>
+                <manifestEntries>
+                  <Class-Path>resources/</Class-Path>
+                </manifestEntries>
+              </archive>
             </configuration>
           </plugin>
         </plugins>
