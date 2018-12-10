@@ -4,7 +4,7 @@ LABEL maintainer="qiaofu"
 WORKDIR /app/ly/server/lybbs
 ADD . /tmp
 
-RUN cd /tmp && mvn package -Pci && mv target/* /app/ly/server/lybbs/ && rm -rf /tmp/* && rm -rf ~/.m2
+RUN cd /tmp && mvn clean package -Pci && mv target/* /app/ly/server/lybbs/ && rm -rf /tmp/* && rm -rf ~/.m2
 
 EXPOSE 8090
 
