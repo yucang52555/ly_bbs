@@ -164,6 +164,7 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <configuration>
               <!--<skip>true</skip>-->
+              <skipTests>true</skipTests>
               <argLine>-Xmx1024m</argLine>
             </configuration>
           </plugin>
@@ -241,6 +242,7 @@
             <configuration>
               <!--<skip>true</skip>-->
               <argLine>-Xmx1024m</argLine>
+              <skipTests>true</skipTests>
             </configuration>
           </plugin>
 
