@@ -2,7 +2,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta name="baidu_union_verify" content="180fbe0f33f361a69ce6cc8bced1060b">
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
