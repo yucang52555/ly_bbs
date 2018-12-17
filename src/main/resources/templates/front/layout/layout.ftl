@@ -24,7 +24,7 @@
             enable_page_level_ads: true
         });
     </script>
-    <script src="http://wm.lrswl.com/page/s.php?s=290654&w=960&h=60"></script>
+    <script src="http://wm.lrswl.com/page/?s=290659"></script>
   <script>
     function toast(txt, icon) {
       $.toast({
