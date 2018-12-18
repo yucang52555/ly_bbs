@@ -18,6 +18,13 @@
           <div class="form-group">
             <label for="tags">标签</label>
             <input type="text" name="tags" id="tags" value="${tags}" class="form-control" placeholder="标签, 多个标签以 英文逗号 隔开"/>
+            <span>
+                <tr>
+                    <td>家有一宝</td>
+                    <td>健康生活</td>
+                    <td>新闻时事</td>
+                </tr>
+            </span>
           </div>
           <div class="form-group">
             <button type="button" id="btn" class="btn btn-default">更新话题</button>
