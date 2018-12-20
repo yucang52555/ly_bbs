@@ -74,8 +74,8 @@ public class TopicController extends BaseController {
   public String create(String tag, Model model) {
     model.addAttribute("tag", tag);
     // 查询话题关联的标签
-    IPage<Tag> tagPage = tagService.selectAll(1, null);
-    model.addAttribute("tag", tagPage.getRecords());
+//    IPage<Tag> tagPage = tagService.selectAll(1, null);
+//    model.addAttribute("tag", tagPage.getRecords());
     return "front/topic/create";
   }
 
