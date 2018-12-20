@@ -18,17 +18,17 @@
           <div class="form-group">
             <label for="tags">标签</label>
             <input type="text" name="tags" id="tags" value="${tag!}" class="form-control" placeholder="标签, 多个标签以 英文逗号 隔开"/>
-            <div class="box-body table-responsive">
-              <ul class="tags blue">
-                <#if tags?? && tags?size gt 0>
-                  <#list tags as tag>
-                    <li>
-                      ${tag.tagName}
-                    </li>
-                  </#list>
-                </#if>
-              </ul>
-            </div>
+            <#--<div class="box-body table-responsive">-->
+              <#--<ul class="tags blue">-->
+                <#--<#if tags?? && tags?size gt 0>-->
+                  <#--<#list tags as tag>-->
+                    <#--<li>-->
+                      <#--${tag.tagName}-->
+                    <#--</li>-->
+                  <#--</#list>-->
+                <#--</#if>-->
+              <#--</ul>-->
+            <#--</div>-->
           </div>
           <div class="form-group">
             <button type="button" id="btn" class="btn btn-default">发布话题</button>
