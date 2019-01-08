@@ -45,7 +45,7 @@ public class IndexController extends BaseController {
 
   // 首页
   @GetMapping({"/", "/index", "/index.html"})
-  public String index(@RequestParam(defaultValue = "all") String tab, @RequestParam(defaultValue = "1") Integer pageNo, Model model) {
+  public String index(@RequestParam(defaultValue = "newest") String tab, @RequestParam(defaultValue = "1") Integer pageNo, Model model) {
     model.addAttribute("tab", tab);
     model.addAttribute("pageNo", pageNo);
     return "front/index";

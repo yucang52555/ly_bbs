@@ -5,11 +5,13 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <ul class="nav nav-pills">
+          <li <#if tab=="newest">class="active"</#if>><a href="/?tab=newest">最新</a></li>
+
           <li <#if tab=="all">class="active"</#if>><a href="/?tab=all">全部</a></li>
           <li <#if tab=="good">class="active"</#if>><a href="/?tab=good">精华</a></li>
           <li <#if tab=="hot">class="active"</#if>><a href="/?tab=hot">最热</a></li>
-          <li <#if tab=="newest">class="active"</#if>><a href="/?tab=newest">最新</a></li>
-          <li <#if tab=="noanswer">class="active"</#if>><a href="/?tab=noanswer">无人问津</a></li>
+
+          <#--<li <#if tab=="noanswer">class="active"</#if>><a href="/?tab=noanswer">无人问津</a></li>-->
         </ul>
       </div>
       <div class="panel-body">
