@@ -72,27 +72,18 @@
     <#if _user??>
       <div class="panel panel-default">
         <div class="panel-heading">
-          添加一条新评论
+            <div id="content">
+                添加一条新评论
+            </div>
           <a href="javascript:;" id="goTop" class="pull-right">回到顶部</a>
         </div>
         <input type="hidden" name="commentId" id="commentId" value=""/>
-        <textarea name="content" id="content" class="form-control" placeholder="添加一条评论，支持Markdown语法"></textarea>
         <div class="panel-body">
           <button id="comment_btn" class="btn btn-sm btn-default">
             <span class="glyphicon glyphicon-send"></span> 评论
           </button>
         </div>
       </div>
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.38.0/codemirror.min.css" rel="stylesheet">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.38.0/codemirror.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.38.0/mode/markdown/markdown.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.38.0/addon/display/placeholder.min.js"></script>
-      <style>
-        .CodeMirror {
-          border-top: 0;
-          height: 150px;
-        }
-      </style>
     </#if>
   </div>
   <div class="col-md-3">
@@ -101,26 +92,19 @@
     <@other_topic userId=topic.userId topicId=topic.id limit=7/>
   </div>
 </div>
-<script>
-  var editor;
-  $(function () {
-    CodeMirror.keyMap.default["Shift-Tab"] = "indentLess";
-    CodeMirror.keyMap.default["Tab"] = "indentMore";
-    editor = CodeMirror.fromTextArea(document.getElementById("content"), {
-      lineNumbers: true,     // 显示行数
-      indentUnit: 4,         // 缩进单位为4
-      tabSize: 4,
-      matchBrackets: true,   // 括号匹配
-      mode: 'markdown',     // Markdown模式
-      lineWrapping: true,    // 自动换行
-    });
 
+<script>
+  var E = window.wangEditor;
+  var editor = new E('#content');
+  editor.create();
+
+  $(function () {
     $("#goTop").click(function () {
       $(window).scrollTo({top: 0}, 1500);
-    })
+    });
 
     $("#comment_btn").click(function () {
-      var content = editor.getDoc().getValue();
+      var content = editor.txt.html();
       if (!content) {
         toast("请输入评论内容");
         return;
@@ -202,9 +186,9 @@
   // 回复评论
   function commentThis(username, commentId) {
     $("#commentId").val(commentId);
-    var oldContent = editor.getDoc().getValue();
+    var oldContent = editor.txt.html();
     if (oldContent) oldContent += '\n';
-    editor.getDoc().setValue(oldContent + "@" + username + " ");
+    editor.txt.html(oldContent + "@" + username + " ");
     editor.focus();
     //定位到文档的最后一个字符的位置
     editor.setCursor(editor.lineCount(), 0);

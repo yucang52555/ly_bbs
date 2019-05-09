@@ -23,10 +23,8 @@
             <label for="title">标题</label>
             <input type="text" name="title" id="title" value="${topic.title}" class="form-control" placeholder="标题"/>
           </div>
-          <div class="form-group">
-            <label for="content">内容</label>
-            <textarea name="content" id="content" class="form-control"
-                      placeholder="内容，支持Markdown语法">${topic.content!?html}</textarea>
+          <div id="content">
+            ${topic.content!?html}
           </div>
           <div class="form-group">
             <label for="tags">标签</label>
@@ -39,31 +37,19 @@
       </div>
     </div>
   </section>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.38.0/codemirror.min.css" rel="stylesheet">
-<style>
-  .CodeMirror {
-    border: 1px solid #ddd;
-  }
-</style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.38.0/codemirror.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.38.0/mode/markdown/markdown.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.38.0/addon/display/placeholder.min.js"></script>
-<script>
-  $(function () {
-    CodeMirror.keyMap.default["Shift-Tab"] = "indentLess";
-    CodeMirror.keyMap.default["Tab"] = "indentMore";
-    var editor = CodeMirror.fromTextArea(document.getElementById("content"), {
-      lineNumbers: true,     // 显示行数
-      indentUnit: 4,         // 缩进单位为4
-      tabSize: 4,
-      matchBrackets: true,   // 括号匹配
-      mode: 'markdown',     // Markdown模式
-      lineWrapping: true,    // 自动换行
-    });
 
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://unpkg.com/wangeditor/release/wangEditor.min.js"></script>
+
+<script>
+  var E = window.wangEditor;
+  var editor = new E('#content');
+  editor.create();
+
+  $(function () {
     $("#btn").click(function () {
       var title = $("#title").val();
-      var content = editor.getDoc().getValue();
+      var content = editor.txt.html();
       var tags = $("#tags").val();
       if (!title || title.length > 120) {
         toast("请输入标题，且最大长度在120个字符以内");

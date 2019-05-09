@@ -1,6 +1,6 @@
 <#include "./layout/layout.ftl"/>
 <@html page_title="登录" page_tab="login">
-<div class="row">
+<div class="row" style="margin-bottom:140px;margin-top:140px;">
   <div class="col-md-3"></div>
   <div class="col-md-6">
     <div class="panel panel-default">
@@ -24,6 +24,7 @@
   </div>
   <div class="col-md-3"></div>
 </div>
+
 <script>
   $(function () {
     $("#login_btn").click(function () {
