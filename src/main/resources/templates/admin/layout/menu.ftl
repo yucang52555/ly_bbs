@@ -8,8 +8,8 @@
                alt="User Image">
         </div>
         <div class="pull-left info">
-        <p>欢迎您, ${sec.principal!}</p>
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <!--<p>欢迎您, ${sec.principal!}<a href="#"><i class="fa fa-circle text-success"></i> Online</a></p>-->
+          <p>欢迎, ${sec.principal!}<a href="#"><i class="fa fa-circle text-success"></i> On</a></p>
         </div>
       </div>
       <li class="header">MAIN NAVIGATION</li>

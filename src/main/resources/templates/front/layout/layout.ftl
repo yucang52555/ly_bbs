@@ -6,9 +6,9 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>孺子社区-老人社区-老年人交流-老年人学习-孺子诗词-自由论坛-自由社区-自由论坛-孺子论坛-老人论坛-孺子-孺子集 ${page_title!}</title>
-  <meta name="Keywords" Content="孺子社区,老人社区,老年人社区,老年人学习,老年人交流,孺子论坛,老人论坛,老年人论坛,老人学习,老人交流,沟通交流,老人分享″>
-  <meta name="Description" Content="孺子社区,是一个老年人沟通、学习、交流的自由论坛,旨在为老年人提供一个宽松自由的老年人沟通、学习、交流、分享的社区论坛。">
+  <title>樵夫社区-老人社区-老年人交流-老年人学习-自由论坛-自由社区-自由论坛-樵夫论坛-老人论坛-樵夫 ${page_title!}</title>
+  <meta name="Keywords" Content="樵夫社区,老人社区,老年人社区,老年人学习,老年人交流,樵夫论坛,老人论坛,老年人论坛,老人学习,老人交流,沟通交流,老人分享″>
+  <meta name="Description" Content="樵夫社区,是一个老年人沟通、学习、交流的自由论坛,旨在为老年人提供一个宽松自由的老年人沟通、学习、交流、分享的社区论坛。">
   <link rel="icon" href="http://static.ruzishici.top/images/bbs/admin/logo.png">
   <#--css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />

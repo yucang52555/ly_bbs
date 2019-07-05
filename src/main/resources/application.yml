@@ -11,10 +11,19 @@ spring:
     username: root
     password: ENC(1sgY0XbWMGTszXVvFPNM/hRwd5m+3Stm)
   freemarker:
-    cache: false
-    settings:
-      template_exception_handler: rethrow
-      number_format: 0.##
+    tempalte-loader-path: classpath:/templates/
+#    prefer-file-system-access: false
+#    cache: false
+#    charset: UTF-8
+#    check-template-location: true
+#    content-type: text/html
+#    expose-request-attributes: true
+#    expose-session-attributes: true
+#    request-context-attribute: request
+#    suffix: .ftl
+#    settings:
+#      template_exception_handler: rethrow
+#      number_format: 0.##
 #  mvc:
 #    static-path-pattern: /static/**
 #  resources:
@@ -22,7 +31,7 @@ spring:
 
 # 配置mapper.xml位置，这个位置可以在pom.xml里配置
 mybatis-plus:
-  mapper-locations: classpath:/*Mapper.xml
+  mapper-locations: classpath:com/lengyan/lybbs/mapper/*Mapper.xml
 
 # 想看mybatis执行的sql的时候，去掉下面这段的注释
 #logging:
