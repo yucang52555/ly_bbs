@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * Created by lengyan
  * Copyright (c) 2018, All Rights Reserved.
- * http://blog.ruzishici.top
+ * http://www.lyqiaofu.top
  */
 @Controller
 @RequestMapping("/comment")

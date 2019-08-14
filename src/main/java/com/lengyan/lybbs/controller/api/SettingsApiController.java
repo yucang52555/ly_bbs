@@ -19,7 +19,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Created by lengyan
  * Copyright (c) 2018, All Rights Reserved.
- * http://blog.ruzishici.top
+ * http://www.lyqiaofu.top
  */
 @RestController
 @RequestMapping("/api/settings")

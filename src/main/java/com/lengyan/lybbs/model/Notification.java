@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  * Created by lengyan
  * Copyright (c) 2018, All Rights Reserved.
- * http://blog.ruzishici.top
+ * http://www.lyqiaofu.top
  */
 public class Notification implements Serializable {
   private static final long serialVersionUID = 3235461023789820336L;

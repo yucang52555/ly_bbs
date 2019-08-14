@@ -5,7 +5,7 @@ import java.security.MessageDigest;
 /**
  * Created by lengyan.
  * Copyright (c) 2016, All Rights Reserved.
- * http://blog.ruzishici.top/
+ * http://www.lyqiaofu.top/
  */
 public class HashUtil {
 

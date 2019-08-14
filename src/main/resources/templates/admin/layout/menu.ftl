@@ -4,7 +4,7 @@
     <ul class="sidebar-menu">
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="http://static.ruzishici.top/images/bbs/admin/logo.png" class="img-circle"
+          <img src="http://static.lyqiaofu.top/images/bbs/admin/logo.png" class="img-circle"
                alt="User Image">
         </div>
         <div class="pull-left info">

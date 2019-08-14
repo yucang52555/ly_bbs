@@ -11,7 +11,7 @@ import java.util.TimeZone;
 /**
  * Created by lengyan.
  * Copyright (c) 2016, All Rights Reserved.
- * http://blog.ruzishici.top/
+ * http://www.lyqiaofu.top/
  */
 public class DateUtil {
 

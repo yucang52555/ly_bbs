@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 /**
  * Created by lengyan
  * Copyright (c) 2018, All Rights Reserved.
- * http://blog.ruzishici.top
+ * http://www.lyqiaofu.top
  */
 @Configuration
 public class WebMvcConfig extends WebMvcConfigurationSupport {

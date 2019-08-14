@@ -14,7 +14,7 @@ import java.util.Properties;
 /**
  * Created by lengyan.
  * Copyright (c) 2018, All Rights Reserved.
- * http://blog.ruzishici.top/
+ * http://www.lyqiaofu.top/
  */
 // 这个工具类来自博客：https://www.cnblogs.com/whgk/p/6506027.html
 @Component

@@ -14,7 +14,7 @@ import java.security.NoSuchAlgorithmException;
 /**
  * Created by lengyan.
  * Copyright (c) 2018, All Rights Reserved.
- * http://blog.ruzishici.top/
+ * http://www.lyqiaofu.top/
  */
 public class MD5Util {
 

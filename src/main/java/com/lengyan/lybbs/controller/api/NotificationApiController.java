@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by lengyan
  * Copyright (c) 2018, All Rights Reserved.
- * http://blog.ruzishici.top
+ * http://www.lyqiaofu.top
  */
 @RestController
 @RequestMapping("/api/notification")

@@ -7,7 +7,7 @@ import org.springframework.util.StringUtils;
 /**
  * Created by lengyan
  * Copyright (c) 2018, All Rights Reserved.
- * http://blog.ruzishici.top
+ * http://www.lyqiaofu.top
  */
 @Component
 public class ShiroTag {

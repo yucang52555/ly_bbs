@@ -8,7 +8,7 @@ import java.util.Random;
 /**
  * Created by lengyan.
  * Copyright (c) 2016, All Rights Reserved.
- * http://blog.ruzishici.top/
+ * http://www.lyqiaofu.top/
  */
 public class MyGenerator implements IBaseGenartor {
 

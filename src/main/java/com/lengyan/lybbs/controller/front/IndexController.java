@@ -27,7 +27,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Created by lengyan
  * Copyright (c) 2018, All Rights Reserved.
- * http://blog.ruzishici.top
+ * http://www.lyqiaofu.top
  */
 @Controller
 public class IndexController extends BaseController {

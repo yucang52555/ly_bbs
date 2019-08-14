@@ -4,7 +4,7 @@
     <#--<div>-->
       &copy;2018 lengyan&nbsp;
       <span class="pull-right">
-        powered by <a href="http://blog.ruzishici.top" target="_blank">冷眼</a>
+        powered by <a href="http://blog.lyqiaofu.top" target="_blank">冷眼</a>
       </span>
     <#--</div>-->
   </div>

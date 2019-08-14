@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * Created by lengyan
  * Copyright (c) 2018, All Rights Reserved.
- * http://blog.ruzishici.top
+ * http://www.lyqiaofu.top/
  */
 public class Permission implements Serializable {
   private static final long serialVersionUID = -2694960432845360318L;
