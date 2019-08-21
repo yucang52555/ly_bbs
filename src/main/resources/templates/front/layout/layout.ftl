@@ -17,7 +17,8 @@
   <link rel="stylesheet" href="/static/css/app.css" />
   <#--javascript-->
   <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="http://unpkg.com/wangeditor/release/wangEditor.min.js"></script>
+  <script type="text/javascript" src="/static/js/wangEditor.min.js"></script>
+  <!--<script type="text/javascript" src="http://unpkg.com/wangeditor/release/wangEditor.min.js"></script>-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js"></script>
