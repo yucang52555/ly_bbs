@@ -1,9 +1,6 @@
 package com.lengyan.lybbs.config;
 
-import com.lengyan.lybbs.directive.NotificationsDirective;
-import com.lengyan.lybbs.directive.OtherTopicDirective;
-import com.lengyan.lybbs.directive.ScoreDirective;
-import com.lengyan.lybbs.directive.TopicListDirective;
+import com.lengyan.lybbs.directive.*;
 import com.lengyan.lybbs.service.SystemConfigService;
 import com.lengyan.lybbs.util.BaseModel;
 import freemarker.template.TemplateModelException;
@@ -38,6 +35,8 @@ public class FreemarkerConfig {
   @Autowired
   private ScoreDirective scoreDirective;
   @Autowired
+  private LybbsLinkDirective lybbsLinkDirective;
+  @Autowired
   private BaseModel baseModel;
   @Autowired
   private ShiroTag shiroTag;
@@ -57,6 +56,7 @@ public class FreemarkerConfig {
     configuration.setSharedVariable("tag_otherTopic", otherTopicDirective);
     configuration.setSharedVariable("tag_notifications", notificationsDirective);
     configuration.setSharedVariable("tag_score", scoreDirective);
+    configuration.setSharedVariable("tag_link", lybbsLinkDirective);
     log.info("freemarker自定义标签配置完成!");
   }
 
