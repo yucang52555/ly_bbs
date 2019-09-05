@@ -6,9 +6,9 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>樵夫社区-老人社区-老年人交流-老年人学习-自由论坛-自由社区-自由论坛-樵夫论坛-老人论坛-樵夫 ${page_title!}</title>
-  <meta name="Keywords" Content="樵夫社区,老人社区,老年人社区,老年人学习,老年人交流,樵夫论坛,老人论坛,老年人论坛,老人学习,老人交流,沟通交流,老人分享″>
-  <meta name="Description" Content="樵夫社区,是一个老年人沟通、学习、交流的自由论坛,旨在为老年人提供一个宽松自由的老年人沟通、学习、交流、分享的社区论坛。">
+  <title>健康管理论坛-健康管理社区-健康管理-健康咨询-健康交流-健康管理师-樵夫 ${page_title!}</title>
+  <meta name="Keywords" Content="健康管理师论坛-健康管理社区-健康管理-健康咨询-健康交流-樵夫″>
+  <meta name="Description" Content="樵夫社区,是一个关于健康管理的社区，主要为一些对健康管理，交流，学习，有兴趣的朋友们提供一个沟通交流的渠道！">
   <link rel="icon" href="http://static.lyqiaofu.top/images/bbs/admin/logo.png">
   <#--css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
