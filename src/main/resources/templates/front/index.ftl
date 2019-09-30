@@ -26,6 +26,8 @@
     </div>
   </div>
   <div class="col-md-3">
+    <#include "./components/search.ftl"/>
+
     <#if _user??>
       <#include "./components/user_info.ftl"/>
     <#else>
