@@ -12,7 +12,7 @@
                     </div>
                     <div class="form-group">
                         <div id="content">
-                            <p>欢迎使用 <b>wangEditor</b> 富文本编辑器</p>
+                            ${topic.content}
                         </div>
                     </div>
                     <div class="form-group">
