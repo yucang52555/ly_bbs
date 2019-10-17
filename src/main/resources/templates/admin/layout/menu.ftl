@@ -4,8 +4,7 @@
     <ul class="sidebar-menu">
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="http://static.lyqiaofu.top/images/bbs/admin/logo.png" class="img-circle"
-               alt="User Image">
+          <img src="http://static.lyqiaofu.top/images/bbs/admin/logo.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <!--<p>欢迎您, ${sec.principal!}<a href="#"><i class="fa fa-circle text-success"></i> Online</a></p>-->

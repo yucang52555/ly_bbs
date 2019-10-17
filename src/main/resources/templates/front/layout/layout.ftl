@@ -9,7 +9,7 @@
   <title>健康管理论坛-健康管理社区-健康管理-健康咨询-健康交流-健康管理师-樵夫 ${page_title!}</title>
   <meta name="Keywords" Content="健康管理师论坛-健康管理社区-健康管理-健康咨询-健康交流-樵夫″>
   <meta name="Description" Content="樵夫社区,是一个关于健康管理的社区，主要为一些对健康管理，交流，学习，有兴趣的朋友们提供一个沟通交流的渠道！">
-  <link rel="icon" href="http://static.lyqiaofu.top/images/bbs/admin/logo.png">
+  <link rel="icon" href="/static/images/favicon.ico">
   <#--css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>

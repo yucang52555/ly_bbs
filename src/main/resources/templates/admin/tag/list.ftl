@@ -77,7 +77,7 @@
         </table>
       </div>
       <#include "../layout/paginate.ftl">
-      <@paginate currentPage=page.current totalPage=page.pages!1 actionUrl="/admin/tag/list" urlParas="&name=${name!}"/>
+      <@paginate currentPage=page.current totalPage=page.total!1 actionUrl="/admin/tag/list" urlParas="&name=${name!}"/>
     </div>
   </section>
 <script>

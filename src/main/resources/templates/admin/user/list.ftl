@@ -51,7 +51,7 @@
         </table>
       </div>
       <#include "../layout/paginate.ftl">
-      <@paginate currentPage=page.current totalPage=page.pages!1 actionUrl="/admin/user/list" urlParas=""/>
+      <@paginate currentPage=page.current totalPage=page.total!1 actionUrl="/admin/user/list" urlParas=""/>
     </div>
   </section>
 <script>

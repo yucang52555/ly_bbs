@@ -89,7 +89,7 @@
         </table>
       </div>
       <#include "../layout/paginate.ftl">
-      <@paginate currentPage=page.current totalPage=page.pages!1 actionUrl="/admin/topic/list"
+      <@paginate currentPage=page.current totalPage=page.total!1 actionUrl="/admin/topic/list"
         urlParas="&startDate=${startDate!}&endDate=${endDate!}&username=${username!}"/>
     </div>
   </section>
