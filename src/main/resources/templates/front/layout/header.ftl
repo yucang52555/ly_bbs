@@ -17,7 +17,7 @@
       <ul class="nav navbar-nav">
         <li <#if page_tab == "index">class="active"</#if>><a href="/">首页</a></li>
         <li <#if page_tab == "tags">class="active"</#if>><a href="/tags">标签</a></li>
-        <li <#if page_tab == "tags">class="active"</#if>><a href="/tags">科普</a></li>
+        <!-- <li <#if page_tab == "kepu">class="active"</#if>><a href="/kepu">科普</a></li> -->
       </ul>
       <#--<form class="navbar-form navbar-left">
         <div class="form-group">
