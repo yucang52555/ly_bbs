@@ -130,6 +130,12 @@
     </dependency>
     <!--shiro-spring end-->
 
+    <!-- elasticsearch -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+    </dependency>
+
     <!-- 数据库加密 -->
     <dependency>
       <groupId>com.github.ulisesbocchio</groupId>

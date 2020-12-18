@@ -170,4 +170,10 @@ public class TopicService {
     );
     return topicMapper.selectAllForAdmin(iPage, startDate, endDate, username);
   }
+
+  public List<Topic> selectAllForElastic() {
+    QueryWrapper<Topic> wrapper = new QueryWrapper<>();
+    wrapper.orderByDesc("in_time");
+    return topicMapper.selectList(wrapper);
+  }
 }

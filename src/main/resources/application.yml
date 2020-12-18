@@ -12,6 +12,10 @@ spring:
     password: ENC(1sgY0XbWMGTszXVvFPNM/hRwd5m+3Stm)
   freemarker:
     tempalte-loader-path: classpath:/templates/
+  data:
+    elasticsearch:
+      cluster-name: article-search
+      cluster-nodes: 47.244.9.82:9300
 #    prefer-file-system-access: false
 #    cache: false
 #    charset: UTF-8

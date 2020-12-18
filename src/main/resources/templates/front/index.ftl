@@ -9,7 +9,7 @@
 
           <li <#if tab=="all">class="active"</#if>><a href="/?tab=all">全部</a></li>
           <li <#if tab=="good">class="active"</#if>><a href="/?tab=good">精华</a></li>
-          <li <#if tab=="hot">class="active"</#if>><a href="/?tab=hot">最热</a></li>
+          <#--<li <#if tab=="hot">class="active"</#if>><a href="/?tab=hot">最热</a></li>-->
 
           <#--<li <#if tab=="noanswer">class="active"</#if>><a href="/?tab=noanswer">无人问津</a></li>-->
         </ul>

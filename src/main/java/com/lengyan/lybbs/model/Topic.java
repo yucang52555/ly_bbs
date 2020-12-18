@@ -2,6 +2,10 @@ package com.lengyan.lybbs.model;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import org.elasticsearch.common.inject.internal.ToStringBuilder;
+import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.Field;
+import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -11,14 +15,20 @@ import java.util.Date;
  * Copyright (c) 2018, All Rights Reserved.
  * http://www.lyqiaofu.top/
  */
+@Document(indexName = "article-search",type = "topic")
 public class Topic implements Serializable {
 
   private static final long serialVersionUID = 1L;
 
   @TableId(type = IdType.AUTO)
   private Integer id;
+
+  @Field(type = FieldType.Text, analyzer = "ik_max_word")
   private String title;
+
+  @Field(type = FieldType.Text)
   private String content;
+
   private Date inTime;
   private Date modifyTime;
   private Integer userId;
@@ -119,5 +129,22 @@ public class Topic implements Serializable {
 
   public void setGood(Boolean good) {
     this.good = good;
+  }
+
+  @Override
+  public String toString() {
+    return "Topic{" +
+            "id=" + id +
+            ", title='" + title + '\'' +
+            ", content='" + content + '\'' +
+            ", inTime=" + inTime +
+            ", modifyTime=" + modifyTime +
+            ", userId=" + userId +
+            ", commentCount=" + commentCount +
+            ", collectCount=" + collectCount +
+            ", view=" + view +
+            ", top=" + top +
+            ", good=" + good +
+            '}';
   }
 }
